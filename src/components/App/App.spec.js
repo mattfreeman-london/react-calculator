@@ -12,7 +12,7 @@ describe('App', () => {
     expect(wrapper.find('div').length).toEqual(1);
   });
 
-  it('should render the Calculator component', () => {
+  it('should render the Calculator Component', () => {
     expect(wrapper.containsMatchingElement(<Calculator />)).toEqual(true);
   });
 });

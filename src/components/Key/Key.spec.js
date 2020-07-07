@@ -3,19 +3,19 @@ import { shallow } from 'enzyme';
 import Key from './Key';
 
 describe('Key', () => {
-    let wrapper;
+  let wrapper;
 
-    beforeEach(() => {
-        wrapper = shallow(
-            <Key
-                keyAction={jest.fn()}
-                keyType={''}
-                keyValue={''}
-            />
-        );
-    });
+  beforeEach(() => {
+    wrapper = shallow(
+      <Key
+        keyAction={jest.fn()}
+        keyType={''}
+        keyValue={''}
+      />
+    );
+  });
 
-    it('should render a <div />', () => {
-        expect(wrapper.find('div').length).toEqual(1);
-    });
+  it('should render a <div />', () => {
+    expect(wrapper.find('div').length).toEqual(1);
+  });
 });

@@ -33,5 +33,5 @@ describe('Keypad', () => {
 
   it('should render an instance of the Key component', () => {
     expect(wrapper.find('Key').length).toEqual(1);
-  })
+  });
 });
